@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Page</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 14px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        /* Welcome Section */
+        .welcome {
+            background-color: #eee;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .welcome h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .welcome p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        /* Menu Section */
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .menu-item {
+            background-color: white;
+            padding: 20px;
+            margin: 15px;
+            width: 250px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .menu-item h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        .menu-item p {
+            color: #555;
+        }
+
+        .menu-item .price {
+            font-size: 1.2em;
+            color: #e67e22;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Gourmet Restaurant</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#menu">Menu</a></li>
+
+            <li><a href="#about">About</a></li>
+            
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="welcome" id="home">
+        <h2>Welcome to Our Restaurant</h2>
+        <p>Indulge in the finest culinary experiences with a touch of elegance.</p>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="menu-item">
+        
+            <h3>Spaghetti Carbonara</h3>
+            <p>A classic Italian dish with creamy sauce, bacon, and parmesan cheese.</p>
+            <p class="price">$12.99</p>
+        </div>
+        <div class="menu-item">
+         
+            <h3>Grilled Chicken Salad</h3>
+            <p>Fresh salad with grilled chicken, vegetables, and vinaigrette.</p>
+            <p class="price">$10.99</p>
+        </div>
+        <div class="menu-item">
+            
+            <h3>Cheeseburger</h3>
+            <p>Juicy beef patty with melted cheese, lettuce, and tomato on a soft bun.</p>
+            <p class="price">$8.99</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gourmet Restaurant. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
